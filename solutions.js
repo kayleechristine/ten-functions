@@ -11,18 +11,18 @@
  * This file is for defining the following functions. See README.md for more detail.
  */
 
-// * isTrue
+ // * isTrue
 const isTrue = (input) => input === true;
 
-// * isFalse
+ // * isFalse
 const isFalse = (input) => input === false;
 
-// * not
-const not = (input) => (input !== true);
+ // * not
+const not = (input) => !input;
 
  // * addOne
 const addOne = (input) => typeof(input) !== "boolean" ? Number(input) + 1 : NaN;
-// const addOne = (input) => Number(input) + 1; // contradicts with READme desired result (addOne(true) = NaN)
+ // const addOne = (input) => Number(input) + 1; // contradicts with READme desired result (addOne(true) = NaN)
 
  // * isEven
 const isEven = (input) => input !== false && Number(input) % 2 === 0;
@@ -40,6 +40,6 @@ const or = (a, b) => a || b;
 const and = (a, b) => a && b;
 
  // * concat
-const concat = (a, b) => (a) + (b);
+const concat = (a, b) => [a] + [b];
 
 
