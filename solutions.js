@@ -9,15 +9,36 @@
  * If you don't know what an iffe is, don't worry about it :)
  *
  * This file is for defining the following functions. See README.md for more detail.
- * isTrue
- * isFalse
- * not
- * addOne
- * isEven
- * isIdentical
- * isEqual
- * or
- * and
- * concat
  */
+
+// * isTrue
+const isTrue = (input) => input === true;
+// console.log(isTrue(true));             // true
+// console.log(isTrue(false));             // false
+// console.log(isTrue(0));             // false
+// console.log(isTrue(null));             // false
+// console.log(isTrue("true"));             // false
+// console.log(isTrue("banana"));             // false
+// console.log(isTrue([1, 2]));             // false
+
+// * isFalse
+const isFalse = (input) => input === false;
+console.log(isFalse(false));             // true
+console.log(isFalse(true));             // false
+console.log(isFalse(0));             // false
+console.log(isFalse(null));             // false
+console.log(isFalse("true"));             // false
+console.log(isFalse("banana"));             // false
+console.log(isFalse([1, 2]));             // false
+
+
+ // * not
+ // * addOne
+ // * isEven
+ // * isIdentical
+ // * isEqual
+ // * or
+ // * and
+ // * concat
+
 
