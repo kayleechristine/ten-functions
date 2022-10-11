@@ -13,31 +13,28 @@
 
 // * isTrue
 const isTrue = (input) => input === true;
-// console.log(isTrue(true));             // true
-// console.log(isTrue(false));             // false
-// console.log(isTrue(0));             // false
-// console.log(isTrue(null));             // false
-// console.log(isTrue("true"));             // false
-// console.log(isTrue("banana"));             // false
-// console.log(isTrue([1, 2]));             // false
 
 // * isFalse
 const isFalse = (input) => input === false;
-console.log(isFalse(false));             // true
-console.log(isFalse(true));             // false
-console.log(isFalse(0));             // false
-console.log(isFalse(null));             // false
-console.log(isFalse("true"));             // false
-console.log(isFalse("banana"));             // false
-console.log(isFalse([1, 2]));             // false
 
+// * not
+const not = (input) => (input !== true);
 
- // * not
  // * addOne
+const addOne = (input) => typeof(input) !== "boolean" ? Number(input) + 1 : NaN;
+
  // * isEven
+const isEven = (input) => input !== false && Number(input) % 2 === 0;
+
  // * isIdentical
+const isIdentical = (a, b) => a === b;
+
  // * isEqual
+const isEqual = (a, b) => a == b;
+
  // * or
+
+
  // * and
  // * concat
 
