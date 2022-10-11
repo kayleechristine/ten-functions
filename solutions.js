@@ -34,9 +34,12 @@ const isIdentical = (a, b) => a === b;
 const isEqual = (a, b) => a == b;
 
  // * or
-
+const or = (a, b) => a || b;
 
  // * and
+const and = (a, b) => a && b;
+
  // * concat
+const concat = (a, b) => (a) + (b);
 
 
