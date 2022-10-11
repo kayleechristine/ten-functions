@@ -22,6 +22,7 @@ const not = (input) => (input !== true);
 
  // * addOne
 const addOne = (input) => typeof(input) !== "boolean" ? Number(input) + 1 : NaN;
+// const addOne = (input) => Number(input) + 1; // contradicts with READme desired result (addOne(true) = NaN)
 
  // * isEven
 const isEven = (input) => input !== false && Number(input) % 2 === 0;
